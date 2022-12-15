@@ -1,0 +1,1828 @@
+{
+  "HomeController": [
+    {
+      "title": {
+        "vi": "AI Camera Hub",
+        "en": "AI Camera Hub"
+      },
+      "path": {
+        "vi": "AICameraHub",
+        "en": "AICameraHub"
+      },
+      "thumbnail": "./images/ai_hub.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/f5f39e55-d2da-4a2b-8f4e-a89aa1c43fca",
+        "en": "https://docs.lumi.vn/share/b2f63c6d-5229-4116-b2b6-2974eabaf5b3"
+      }
+    },
+    {
+      "title": {
+        "vi": "Bộ điều khiển trung tâm v3.0",
+        "en": "Home Controller v3.0"
+      },
+      "path": {
+        "vi": "Bo-dieu-khien-trung-tamv3.0",
+        "en": "Homecontrollerv30"
+      },
+      "thumbnail": "./images/hc_3.0.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/2f2f8a92-132c-41d4-a38e-d64f3661dbe7",
+        "en": "https://docs.lumi.vn/share/17fe9423-8c50-4835-888d-abd9b4056a67"
+      }
+    },
+    {
+      "title": {
+        "vi": "Bộ điều khiển trung tâm v1.5",
+        "en": "Home Controller v1.5"
+      },
+      "path": {
+        "vi": "Bo-dieu-khien-trung-tamv1.5",
+        "en": "Homecontrollerv15"
+      },
+      "thumbnail": "./images/hc_1.5.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/ab95f195-8bfc-4bc0-83f7-51e04683bc96",
+        "en": "https://docs.lumi.vn/share/afa65345-8f4b-4012-b26d-9313f835b028"
+      }
+    },
+    {
+      "title": {
+        "vi": "Bộ điều khiển trung tâm - Rèm",
+        "en": "Curtain Controller"
+      },
+      "path": {
+        "vi": "Bo-dieu-khien-trung-tam-he-thong-rem",
+        "en": "Homecontrolunit"
+      },
+      "thumbnail": "./images/cc_rem.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/d538f81e-3435-441d-8ad7-f509fe26fa1c",
+        "en": "https://docs.lumi.vn/share/6a028765-9b9c-44b5-ad97-79377dd22847"
+      }
+    }
+  ],
+  "switchButton": [
+    {
+      "title": {
+        "vi": "Công tắc cảnh",
+        "en": "Scene Button"
+      },
+      "path": {
+        "vi": "Nut-canh",
+        "en": "Scenebutton"
+      },
+      "thumbnail": "./images/nut_canh.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/d1aa7074-5154-426f-b2ec-cb3b8e538ae7",
+        "en": "https://docs.lumi.vn/share/12bd44ff-1995-4151-a2c0-fa30ce980d9b"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Công tắc cảm ứng",
+        "en": "Smart Touch Switch"
+      },
+      "path": {
+        "vi": "Cong-tac-cam-ung",
+        "en": "Touchswitch"
+      },
+      "thumbnail": "./images/ct_camung.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/9f10865a-c997-47bf-befd-72aa47205133",
+        "en": "https://docs.lumi.vn/share/e314eaed-a511-45c3-b7d5-2883ed0256fb"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/0fe86929-67f7-49b5-814a-c66dad2b6759",
+        "en": "https://docs.lumi.vn/share/875f6b9e-356e-4e95-abbc-7d91c8d6c9d8"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Công tắc công suất cao",
+        "en": "High Power Switch"
+      },
+      "path": {
+        "vi": "Cong-tac-cong-suat-cao",
+        "en": "Highpowerswitch"
+      },
+      "thumbnail": "./images/ct_congsuatcao.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/5d05571e-3c26-446b-b9d9-7cf1aa517124",
+        "en": "https://docs.lumi.vn/share/b9501e20-d820-4501-8985-47d33827f559"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/1fc40264-fd21-4df0-bae9-efbec86c765b",
+        "en": "https://docs.lumi.vn/share/014c1ae7-f7a7-4c66-b3b8-75ce455be3e9"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Công tắc chiết áp",
+        "en": "Dimmer Switch"
+      },
+      "path": {
+        "vi": "Cong-tac-chiet-ap",
+        "en": "Potentiometerswitch"
+      },
+      "thumbnail": "./images/ct_dimmer.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/1d2204fb-5685-4d87-ae97-5339f92ca7a7",
+        "en": "https://docs.lumi.vn/share/cc4e95d2-4690-4eef-b038-d4e7c4ab32bb"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Công tắc rèm cuốn",
+        "en": "Blind Switch"
+      },
+      "path": {
+        "vi": "Cong-tac-rem-cuon",
+        "en": "Rollerblindsswitch"
+      },
+      "thumbnail": "./images/ct_rem_cuon.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/3c6829eb-292f-4274-a1a7-c851e1210172",
+        "en": "https://docs.lumi.vn/share/e43724a3-04f2-4c0b-9e2c-27da1f5df1a1"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Công tắc rèm - 3 dây điều khiển",
+        "en": "Curtain Switch - 3 Signal Wires"
+      },
+      "path": {
+        "vi": "Cong-tac-rem-ngang-3",
+        "en": "Horizontalcurtainswitch3"
+      },
+      "thumbnail": "./images/ct_rem_3_day.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/6fe37d48-9706-43d2-b9f6-f85b5ad088de",
+        "en": "https://docs.lumi.vn/share/cc30ab98-d038-4c2d-a229-c19faa65db04"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Công tắc rèm - 4 dây điều khiển",
+        "en": "Curtain Switch - 4 Signal Wires"
+      },
+      "path": {
+        "vi": "Cong-tac-rem-ngang-4",
+        "en": "Horizontalcurtainswitch4"
+      },
+      "thumbnail": "./images/ct_rem_4_day.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/b23f3a9c-41f2-421d-9fa8-21b52e7f868e",
+        "en": "https://docs.lumi.vn/share/454122ab-479b-48e4-bc3c-00a3130aa377"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Công tắc rèm - Động cơ DT99LM",
+        "en": "Curtain Switch - Motor DT99LM"
+      },
+      "path": {
+        "vi": "DTlM99curtainswitch",
+        "en": "DTlM99curtainswitch"
+      },
+      "thumbnail": "./images/ct_rem_dtlm99.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/82b23269-ff2b-4048-8e36-4e36f0cb9fc7",
+        "en": "https://docs.lumi.vn/share/b551ed4d-f8af-4461-9d4d-a1b57cb6b5a5"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Công tắc nguồn một dây",
+        "en": "Single Live Wire Switch"
+      },
+      "path": {
+        "vi": "Cong-tac-mot-day-lua",
+        "en": "Onewirefireswitch"
+      },
+      "thumbnail": "./images/ct_nguon_1_day.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/ff231054-0f26-4165-a817-b9c8d58cad1b",
+        "en": "https://docs.lumi.vn/share/2d0584e4-e94f-4cce-a614-8a2572f75b94"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Công tắc cửa cuốn",
+        "en": "Rolling Door Switch"
+      },
+      "path": {
+        "vi": "Cong-tac-cua-cuon",
+        "en": "Rollerdoorswitch"
+      },
+      "thumbnail": "./images/ct_cua_cuon.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/c8e6c15c-f15c-4e42-b8fd-f69c4af234d3",
+        "en": "https://docs.lumi.vn/share/ca779974-cb4e-4cd7-a9b9-8b862dc97390"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Công tắc cổng",
+        "en": "Gate Switch"
+      },
+      "path": {
+        "vi": "Cong-tac-cua-cong",
+        "en": "Gatedoorswitch"
+      },
+      "thumbnail": "./images/ct_cong.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/7ddc595b-09e7-4bf3-a305-f3c194a375c2",
+        "en": "https://docs.lumi.vn/share/01654e9a-ea9b-4c13-8546-c91ea79cb2de"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Công tắc quạt",
+        "en": "Fan Switch"
+      },
+      "path": {
+        "vi": "Cong-tac-quat",
+        "en": "Fanswitch"
+      },
+      "thumbnail": "./images/ct_quat.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/9f268ee3-baaf-4d30-8766-0ceb42234a64",
+        "en": "https://docs.lumi.vn/share/24d5a336-2806-4dda-8453-3df8f0efd2e3"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    }
+  ],
+  "moduleSensorRemote": [
+    {
+      "title": {
+        "vi": "Bộ điều khiển hồng ngoại",
+        "en": "Infrared Controller"
+      },
+      "path": {
+        "vi": "Bo-dieu-khien-hong-ngoai",
+        "en": "Infraredcontroller"
+      },
+      "thumbnail": "./images/ir.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/3c5a3e38-660f-4772-96f0-baf6f3b9035f",
+        "en": "https://docs.lumi.vn/share/4ead2a46-aa49-43c9-a29b-ea72e909391d"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Module 2 In 2 Out",
+        "en": "Module 2 In 2 Out"
+      },
+      "path": {
+        "vi": "Module2In2Out",
+        "en": "Module2In2Out"
+      },
+      "thumbnail": "./images/2in_2out.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/9dd23894-5f9e-4d7e-9787-02748b5f83af",
+        "en": "https://docs.lumi.vn/share/853c48b9-d27d-45f7-ab7b-2873bf2251da"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/edc67598-5e2e-4327-95ab-789b715a113f",
+        "en": "https://docs.lumi.vn/share/9d798256-6f51-451b-98ce-6c47adc6d15f"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Module 5 In 1",
+        "en": "Module 5 In 1"
+      },
+      "path": {
+        "vi": "Module5In1",
+        "en": "Module5In1"
+      },
+      "thumbnail": "./images/5in1.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/3d62e504-1dfc-47b8-a9b4-cfff8a8cc02e",
+        "en": "https://docs.lumi.vn/share/6fbcda5e-6f91-49ef-a86c-00af42bbb92c"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/09c2f8af-db3a-4030-9a7f-c3d946733d7d",
+        "en": "https://docs.lumi.vn/share/b53b7880-4aec-46f2-acdb-02230364050b"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Động cơ rèm DT99LM",
+        "en": "DT99LM Curtain Motor"
+      },
+      "path": {
+        "vi": "Dong-co-rem-DTLM99",
+        "en": "DTLM99curtainmotor"
+      },
+      "thumbnail": "./images/dtlm99.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/39b24178-56b6-4a8e-8f69-dc9ad7166454",
+        "en": "https://docs.lumi.vn/share/5e37da6b-dd9d-4b2a-859d-88d11b063517"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Module Input",
+        "en": "Module Input"
+      },
+      "path": {
+        "vi": "ModuleInput",
+        "en": "ModuleInput"
+      },
+      "thumbnail": "./images/module_input.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/ecb5cb12-0664-4a98-8d14-5528ba8739d4",
+        "en": "https://docs.lumi.vn/share/516d793b-6381-46c8-abf6-93a26b4f7895"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Cảm biến cầu thang",
+        "en": "Stair Sensor"
+      },
+      "path": {
+        "vi": "Cam-bien-chuyen-dong-2-in-1",
+        "en": "2in1MotionSensor"
+      },
+      "thumbnail": "./images/ct_cauthang_2in1.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/71f766f5-9f17-409b-86cb-2dc0ae7d4322",
+        "en": "https://docs.lumi.vn/share/a3f922f6-8d85-4c48-aa14-6fdd4cc768fb"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Cảm biến chuyển động V2",
+        "en": "Motion Sensor V2"
+      },
+      "path": {
+        "vi": "Cam-bien-chuyen-dong-V2",
+        "en": "MotionSensorv2"
+      },
+      "thumbnail": "./images/cb_chuyendong.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/27f2d58c-a5f3-443c-b2fc-e7692fc301f0",
+        "en": "https://docs.lumi.vn/share/4dbeccc4-24ce-4302-adf7-79fcb016d258"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/0d1c1d1a-66f0-46e7-b7d6-18d62b7e77f8",
+        "en": "https://docs.lumi.vn/share/a4e02a34-4a48-41ed-9cbe-060484f0e3b2"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Cảm biến chuyển động V1",
+        "en": "Motion Sensor V1"
+      },
+      "path": {
+        "vi": "Cam-bien-chuyen-dong-V1",
+        "en": "MotionSensorv1"
+      },
+      "thumbnail": "./images/cb_chuyendong.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/98b929ab-54ca-4954-ac7f-d73c14367583",
+        "en": "https://docs.lumi.vn/share/4fd0cf72-047b-4449-84d6-19ec7e8e61ff"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Cảm biến cửa",
+        "en": "Door Sensor"
+      },
+      "path": {
+        "vi": "Cam-bien-cua",
+        "en": "Doorsensor"
+      },
+      "thumbnail": "./images/cb_cua.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/fcf79922-4c43-4762-af2d-b1492d2dbddd",
+        "en": "https://docs.lumi.vn/share/3fbb4798-1b7c-4c30-aec5-e81afa961a01"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Cảm biến chuyển động gắn trần",
+        "en": "Ceiling Mounted Motion Sensor"
+      },
+      "path": {
+        "vi": "Cam-bien-chuyen-dong-gan-tran",
+        "en": "Ceilingmountedmotionsensor"
+      },
+      "thumbnail": "./images/cb_gantran.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/5ee36a31-c5da-4741-9c92-a4a7045adf23",
+        "en": "https://docs.lumi.vn/share/12b4d16c-c0df-4b1a-b4df-098d7a328413"
+      }
+    },
+    {
+      "title": {
+        "vi": "Module Repeater",
+        "en": "Module Repeater"
+      },
+      "path": {
+        "vi": "ModuleRepeater",
+        "en": "ModuleRepeater"
+      },
+      "thumbnail": "./images/repeater.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/5abc68fe-57b9-4f33-861f-d107d4ecf41e",
+        "en": "https://docs.lumi.vn/share/c24309fb-294f-4877-a90a-16a9cc823b28"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Module Led RGB",
+        "en": "Module Led RGB"
+      },
+      "path": {
+        "vi": "ModuleLedRGB",
+        "en": "ModuleLedRGB"
+      },
+      "thumbnail": "./images/module_rgb.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/37c32a7c-312f-480c-86b3-32a12417df36",
+        "en": "https://docs.lumi.vn/share/9b846fa3-56ea-4e26-af88-31674bdcb9f6"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    }
+  ],
+  "smartLighting": [
+    {
+      "title": {
+        "vi": "Công tắc cảnh",
+        "en": "Scene Button"
+      },
+      "path": {
+        "vi": "Nut-canh",
+        "en": "Scenebutton"
+      },
+      "thumbnail": "./images/nut_canh.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/d1aa7074-5154-426f-b2ec-cb3b8e538ae7",
+        "en": "https://docs.lumi.vn/share/12bd44ff-1995-4151-a2c0-fa30ce980d9b"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Mini Spotlight âm tủ",
+        "en": "Led Mini Spotlight âm tủ"
+      },
+      "path": {
+        "vi": "mini_spl_am_tu",
+        "en": "mini_spl_cabinet"
+      },
+      "thumbnail": "./images/led_am_tu.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/cced6c54-7363-4bee-9cb4-239716182580",
+        "en": "https://docs.lumi.vn/share/cced6c54-7363-4bee-9cb4-239716182580"
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Mini Spotlight chỉnh hướng",
+        "en": "Led Mini Spotlight navigation"
+      },
+      "path": {
+        "vi": "mini_spl_chinh_huong",
+        "en": "mini_spl_navigation"
+      },
+      "thumbnail": "./images/mini_spotlight_chinhhuong.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/5e945cdd-488b-43e9-88de-b453a6f36200",
+        "en": "https://docs.lumi.vn/share/5e945cdd-488b-43e9-88de-b453a6f36200"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Spotlight chỉnh hướng",
+        "en": "Led Spotlight navigation"
+      },
+      "path": {
+        "vi": "spl_chinh_huong",
+        "en": "spl_navigation"
+      },
+      "thumbnail": "./images/spotlight_chinhhuong.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/64bcf3d7-c309-46d0-9b4e-8ddd50476a18",
+        "en": "https://docs.lumi.vn/share/64bcf3d7-c309-46d0-9b4e-8ddd50476a18"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Spotlight chỉnh hướng (Elip)",
+        "en": "Led Spotlight navigation (Elip)"
+      },
+      "path": {
+        "vi": "spl_chinh_huong_elip",
+        "en": "spl_navigation_elip"
+      },
+      "thumbnail": "./images/spotligh_chinghuong_elip.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/8025b924-fe5f-4a61-97c6-ffae4b7ae787",
+        "en": "https://docs.lumi.vn/share/8025b924-fe5f-4a61-97c6-ffae4b7ae787"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Spotlight chống nước",
+        "en": "Led Spotlight waterproof"
+      },
+      "path": {
+        "vi": "spl_chong_nuoc",
+        "en": "spl_waterproof"
+      },
+      "thumbnail": "./images/spotlight_chongnuoc.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/6494010a-3f45-4fee-8fe2-5f444f774893",
+        "en": "https://docs.lumi.vn/share/6494010a-3f45-4fee-8fe2-5f444f774893"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Spotlight (Tunable)",
+        "en": "Led Spotlight (Tunable)"
+      },
+      "path": {
+        "vi": "spl_doi_mau",
+        "en": "spl_tunable"
+      },
+      "thumbnail": "./images/spotlight_tunable.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/97a34c2f-f2c2-4631-b8bd-81793887a789",
+        "en": "https://docs.lumi.vn/share/97a34c2f-f2c2-4631-b8bd-81793887a789"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Downlight 10W (2022)",
+        "en": "Led Downlight 10W (2022)"
+      },
+      "path": {
+        "vi": "dl_10w_ban2022",
+        "en": "dl_10w_ver2022"
+      },
+      "thumbnail": "./images/downligth_10W_2022.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/79be70f3-e118-43af-b6f3-d29de9504e47",
+        "en": "https://docs.lumi.vn/share/79be70f3-e118-43af-b6f3-d29de9504e47"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Downlight 12W (2022)",
+        "en": "Led Downlight 12W (2022)"
+      },
+      "path": {
+        "vi": "dl_12w_ban2022",
+        "en": "dl_12w_ver2022"
+      },
+      "thumbnail": "./images/downligth_12W_2022.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/1b30a73f-0863-4791-9052-c6626c519db5",
+        "en": "https://docs.lumi.vn/share/1b30a73f-0863-4791-9052-c6626c519db5"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Spotlight xoay góc (2022)",
+        "en": "Rotating Spotlight (2022)"
+      },
+      "path": {
+        "vi": "spl_xoaygoc_2022",
+        "en": "spl_rotate_ver2022"
+      },
+      "thumbnail": "./images/spotlight_xoaygoc.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/e89aa62d-51d0-4bf3-8949-d5e5aba60cc3",
+        "en": "https://docs.lumi.vn/share/e89aa62d-51d0-4bf3-8949-d5e5aba60cc3"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Linear âm trần",
+        "en": "Ceiling Led Linear"
+      },
+      "path": {
+        "vi": "linear_amtran",
+        "en": "linear_ceiling"
+      },
+      "thumbnail": "./images/linear_am_tran.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/d0aef840-2aaa-425e-a5fa-6ffa4022a9f3",
+        "en": "https://docs.lumi.vn/share/d0aef840-2aaa-425e-a5fa-6ffa4022a9f3"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Linear ốp nổi",
+        "en": "Mounting Led Linear"
+      },
+      "path": {
+        "vi": "linear_opnoi",
+        "en": "linear_mounting"
+      },
+      "thumbnail": "./images/linear_opnoi.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/e28b5514-d095-4d5c-9de5-d138f78025de",
+        "en": "https://docs.lumi.vn/share/e28b5514-d095-4d5c-9de5-d138f78025de"
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Spotlight ốp nổi",
+        "en": "Mounting Spotlight"
+      },
+      "path": {
+        "vi": "spl_opnoi",
+        "en": "spl_mounting"
+      },
+      "thumbnail": "./images/spotlight_opnoi.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/f0d9001b-fb31-4cf1-8fce-67db6891a0ff",
+        "en": "https://docs.lumi.vn/share/f0d9001b-fb31-4cf1-8fce-67db6891a0ff"
+      }
+    },
+    {
+      "title": {
+        "vi": "Led rọi cây",
+        "en": "Garden Led Track"
+      },
+      "path": {
+        "vi": "led_roicay",
+        "en": "led_garden"
+      },
+      "thumbnail": "./images/roi_cay.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/07d69cd3-b154-4ff0-b6cf-0c6ce74f6d87",
+        "en": "https://docs.lumi.vn/share/07d69cd3-b154-4ff0-b6cf-0c6ce74f6d87"
+        
+      }
+    },
+    {
+      "title": {
+        "vi": "Led gắn tường ngoài trời",
+        "en": "Outdoor Mounting Led"
+      },
+      "path": {
+        "vi": "gantuong_ngoaitroi",
+        "en": "outdoor_led_mounting"
+      },
+      "thumbnail": "./images/den_gan_tuong_ngoai_troi-01.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/728990be-6afd-4443-8ee0-47c2f3c38125",
+        "en": "https://docs.lumi.vn/share/728990be-6afd-4443-8ee0-47c2f3c38125"
+      }
+    }, 
+    {
+      "title": {
+        "vi": "Led Mini Spotlight xoay góc",
+        "en": "Smart Rotating Mini Spotlight"
+      },
+      "path": {
+        "vi": "LedMiniSpotlight-xoay-goc",
+        "en": "LedMiniSpotlightrotatesangle"
+      },
+      "thumbnail": "./images/mini_spl_xoay.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/3a11b770-42c4-407f-b12b-0cc85424842c",
+        "en": "https://docs.lumi.vn/share/ca12defa-5657-4a1d-bcb1-7e253f71e63f"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Smart Led Mini Spotlight",
+        "en": "Smart Led Mini Spotlight"
+      },
+      "path": {
+        "vi": "LedMiniSpotlight",
+        "en": "LedMiniSpotlight"
+      },
+      "thumbnail": "./images/mini_spl.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/80680846-8639-4047-949d-36ff7247f317",
+        "en": "https://docs.lumi.vn/share/727d116c-ab59-40d6-8621-f1b505161803"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Đèn thả",
+        "en": "Drop Light"
+      },
+      "path": {
+        "vi": "Den-tha",
+        "en": "Droplight"
+      },
+      "thumbnail": "./images/dentha_sml.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/3696093a-66e7-4557-bcf8-0a837c7730ab",
+        "en": "https://docs.lumi.vn/share/7f38fd00-0be1-4a00-88f5-07cb2acf670a"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Đèn gắn tường",
+        "en": "Wall Light"
+      },
+      "path": {
+        "vi": "Den-gan-tuong",
+        "en": "WallLights"
+      },
+      "thumbnail": "./images/den_tuong_sml.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/e1b2c25a-c90c-47d5-beec-5c5ab63abf20",
+        "en": "https://docs.lumi.vn/share/8c1f6152-1d3c-4996-9efb-a8188bfcd2b9"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Spotlight xoay góc (2020)",
+        "en": "Rotating Spotlight (2020)"
+      },
+      "path": {
+        "vi": "Ledspotlight-xoay-goc",
+        "en": "Ledspotlightrotatesangle"
+      },
+      "thumbnail": "./images/spl_xoay_goc.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/e1858ff8-85b8-42ad-95a6-c70b9fc8b207",
+        "en": "https://docs.lumi.vn/share/6981e491-9d93-4713-a4a1-d6934c303e62"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Downlight (2020)",
+        "en": "Led Downlight (2020)"
+      },
+      "path": {
+        "vi": "LedDownlight",
+        "en": "LedDownlight"
+      },
+      "thumbnail": "./images/downlight.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/3a8930f6-77b4-484e-b1c5-3a279ddafaa0",
+        "en": "https://docs.lumi.vn/share/53115f75-b926-4ac2-bff6-a645c66759e4"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led Panel",
+        "en": "Led Panel"
+      },
+      "path": {
+        "vi": "LedPanel",
+        "en": "LedPanel"
+      },
+      "thumbnail": "./images/led_panel.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "https://docs.lumi.vn/share/6596c0d4-84a5-4cb2-9f76-4ecb40414f01",
+        "en": "https://docs.lumi.vn/share/15eaba0e-d58a-429b-ac55-a102dd7e9348"
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Led dây RGB",
+        "en": "Led Wire RGB"
+      },
+      "path": {
+        "vi": "Led-day-RGB",
+        "en": "LedRGB"
+      },
+      "thumbnail": "./images/led_rgb.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/a68ad16a-059d-4ce7-99c2-dace607fe8c9",
+        "en": "https://docs.lumi.vn/share/f93098f3-9bca-4a51-ace8-6caf7f3c5874"
+      }
+    }
+  ],
+  "lockGate": [
+    {
+      "title": {
+        "vi": "Khóa thông minh Luvit",
+        "en": "Smart Lock Luvit"
+      },
+      "path": {
+        "vi": "Luvit",
+        "en": "Luvit"
+      },
+      "thumbnail": "./images/luvit.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/c45abd5c-cf88-4495-80bc-c07e7df80943",
+        "en": "https://docs.lumi.vn/share/f90d19fd-1c3b-4572-8016-93dffc0d7bad"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Khóa thông minh Innoviti",
+        "en": "Smart Lock Innoviti"
+      },
+      "path": {
+        "vi": "Innoviti",
+        "en": "Innoviti"
+      },
+      "thumbnail": "./images/innoviti.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/766bd2d3-4fad-486f-8cbd-0e2b5dfbfd6f",
+        "en": "https://docs.lumi.vn/share/4789a7fa-730a-4ed2-b4e8-425754050694"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Khóa thông minh Yale",
+        "en": "Smart Lock Yale"
+      },
+      "path": {
+        "vi": "Yale",
+        "en": "Yale"
+      },
+      "thumbnail": "./images/yale.jpeg",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/59051bb3-7944-4679-a605-1254960472bc",
+        "en": "https://docs.lumi.vn/share/8f742f15-aa99-49fe-b70f-c7089492166f"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Module cổng DEA",
+        "en": "Module DEA"
+      },
+      "path": {
+        "vi": "DEA",
+        "en": "DEA"
+      },
+      "thumbnail": "./images/dea.jpeg",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/5cf1118f-8ca6-4fcb-9e80-5b6a86f738e4",
+        "en": "https://docs.lumi.vn/share/ccb68109-f217-48c9-9918-182338e9fea3"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    }
+  ],
+  "amThanhDaVung": [
+    {
+      "title": {
+        "vi": "Âm thanh đa vùng V2",
+        "en": "Multi Zone Audio V2"
+      },
+      "path": {
+        "vi": "Am-thanh-da-vung-v2",
+        "en": "V2multi-zoneaudio"
+      },
+      "thumbnail": "./images/ma_v2.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/71aad2ca-35bf-4ab1-8abd-e0a506beaab1",
+        "en": "https://docs.lumi.vn/share/087429fb-66a9-4709-b8b9-b05293884a90"
+      }
+    },
+    {
+      "title": {
+        "vi": "Âm thanh đa vùng V3",
+        "en": "Multi Zone Audio V3"
+      },
+      "path": {
+        "vi": "Am-thanh-da-vung-V3",
+        "en": "V3multi-zoneaudio"
+      },
+      "thumbnail": "./images/ma_v3.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/d3582f02-ec44-4a31-aca5-1c04aa4e3cb9",
+        "en": "https://docs.lumi.vn/share/df9738fc-d49d-4e76-a828-8f7d639475e8"
+      }
+    }
+  ],
+  "workWithLumi": [
+    {
+      "title": {
+        "vi": "Alexa",
+        "en": "Alexa"
+      },
+      "path": {
+        "vi": "Alexa",
+        "en": "Alexa"
+      },
+      "thumbnail": "./images/Alexa.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/81c0c1df-aec6-4551-9d33-1559b8c81d0a",
+        "en": "https://docs.lumi.vn/share/2020b588-bbb5-477e-92aa-9d5a2a110acc"
+      }
+    },
+    {
+      "title": {
+        "vi": "Google Assistant",
+        "en": "Google Assistant"
+      },
+      "path": {
+        "vi": "GoogleAssistant",
+        "en": "GoogleAssistant"
+      },
+      "thumbnail": "./images/google_assistant.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/f7cc238a-3fcc-4064-8aee-bc53202884eb",
+        "en": "https://docs.lumi.vn/share/acb08b44-e68e-4504-9dac-54a02caf5db4"
+      }
+    },
+    {
+      "title": {
+        "vi": "Olli Maika",
+        "en": "Olli Maika"
+      },
+      "path": {
+        "vi": "OlliMaika",
+        "en": "OlliMaika"
+      },
+      "thumbnail": "./images/maika.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/d68f7a09-e70e-4f26-8ca7-6d7b784da5bd",
+        "en": "https://docs.lumi.vn/share/9f1d50cf-bfb5-45e2-916b-a759cdf3b792"
+      }
+    },
+    {
+      "title": {
+        "vi": "Module Daikin",
+        "en": "Module Daikin"
+      },
+      "path": {
+        "vi": "VRVDaikin",
+        "en": "VRVDaikin"
+      },
+      "thumbnail": "./images/daikin.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/c7d10c8d-0379-4c5c-bdc6-b79ffe1653fa",
+        "en": "https://docs.lumi.vn/share/0a4b338a-5782-4407-b401-9ee7276ad09b"
+      }
+    },
+    {
+      "title": {
+        "vi": "Module cổng DEA",
+        "en": "Module DEA"
+      },
+      "path": {
+        "vi": "DEA",
+        "en": "DEA"
+      },
+      "thumbnail": "./images/dea.jpeg",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/5cf1118f-8ca6-4fcb-9e80-5b6a86f738e4",
+        "en": "https://docs.lumi.vn/share/ccb68109-f217-48c9-9918-182338e9fea3"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "vi": "Khóa thông minh Yale",
+        "en": "Smart Lock Yale"
+      },
+      "path": {
+        "vi": "Yale",
+        "en": "Yale"
+      },
+      "thumbnail": "./images/yale.jpeg",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "https://docs.lumi.vn/share/59051bb3-7944-4679-a605-1254960472bc",
+        "en": "https://docs.lumi.vn/share/8f742f15-aa99-49fe-b70f-c7089492166f"
+      },
+      "isOther": false,
+      "normal": {
+        "path": "normal",
+        "vi": "",
+        "en": ""
+      }
+    }
+  ],
+  "appLumiLife": [
+    {
+      "title": {
+        "vi": "App Lumi Life",
+        "en": "App Lumi Life"
+      },
+      "path": {
+        "vi": "AppLumiLife",
+        "en": "AppLumiLife"
+      },
+      "thumbnail": "./images/desktopAppLumiLife.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/257c9383-06d2-49a1-8305-d951f4295e60/doc/lumi-life-desktop-app-KlrjflI1WC",
+        "en": "https://docs.lumi.vn/share/257c9383-06d2-49a1-8305-d951f4295e60/doc/lumi-life-desktop-app-KlrjflI1WC"
+      }
+    },
+    {
+      "title": {
+        "vi": "Cấu hình hệ thống",
+        "en": "System Configuration"
+      },
+      "path": {
+        "vi": "Cau-hinh-he-thong",
+        "en": "SystemConfiguration"
+      },
+      "thumbnail": "./images/systemConfiguration.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/61e9c698-9c1b-4a77-ae3c-6347924c4ee7",
+        "en": "https://docs.lumi.vn/share/05733a7a-f190-4ab8-83f4-7fb59888d1c6"
+      }
+    },
+    {
+      "title": {
+        "vi": "Cấu hình Smart Lighting",
+        "en": "Smart Lighting Configuration"
+      },
+      "path": {
+        "vi": "Cau-hinh-Smart-Lighting",
+        "en": "SmartLightingConfiguration"
+      },
+      "thumbnail": "./images/smartLightingConfiguration.png",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/8132a870-bff5-4523-828f-53ed134b7d54",
+        "en": "https://docs.lumi.vn/share/ebbe7d24-4a32-4a85-8a3b-f5ee14fd131f"
+      }
+    },
+    {
+      "title": {
+        "vi": "Tùy chỉnh",
+        "en": "Custom Configuration"
+      },
+      "path": {
+        "vi": "Configuration",
+        "en": "Configuration"
+      },
+      "thumbnail": "./images/configuration.jpg",
+      "bltMesh": {
+        "path": "bluetooth",
+        "vi": "",
+        "en": ""
+      },
+      "zigbee": {
+        "path": "zigbee",
+        "vi": "",
+        "en": ""
+      },
+      "isOther": true,
+      "normal": {
+        "path": "normal",
+        "vi": "https://docs.lumi.vn/share/3505ab2f-fe3e-441b-b538-6e03788205bf",
+        "en": "https://docs.lumi.vn/share/08ef7cc7-eeeb-4e14-a36e-bd19c1977d84"
+      }
+    }
+  ]
+}

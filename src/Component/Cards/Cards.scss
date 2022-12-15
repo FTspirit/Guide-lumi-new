@@ -1,0 +1,51 @@
+.ziggbee {
+  width: 10rem !important;
+}
+.blt {
+  width: 10rem !important;
+}
+.cardheading {
+  width: 20rem !important;
+  height: 20rem !important;
+  @media only screen and (max-width: 576em) {
+    width: 20rem !important;
+    height: 20rem !important;
+  }
+}
+.cardtext {
+  text-align: center !important;
+  font-size: 1.8rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.02rem;
+  color: #333 !important;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-title {
+  height: 4rem;
+}
+.cardContainer {
+  background-color: #fff !important;
+  border: none !important;
+  border-radius: 1rem !important;
+  cursor: pointer;
+}
+.cardjustifycenter {
+  justify-content: center;
+}
+.gap-1 {
+  gap: 2rem !important;
+}
+.cardlink {
+  text-decoration: none !important;
+  color: #008c4f !important;
+}
+.pd-10 {
+  padding-bottom: 10rem;
+}
+.cardconnect {
+  height: 6.7rem;
+}

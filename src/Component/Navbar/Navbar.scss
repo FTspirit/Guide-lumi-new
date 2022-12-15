@@ -1,0 +1,65 @@
+a:hover {
+  color: #028b51 !important;
+}
+.flag {
+  width: 3rem;
+  height: 3rem;
+}
+.navbar-toggler-icon {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+.offcanvas-header > .btn-close {
+  display: none;
+  font-size: 2rem !important;
+  color: #028b51 !important;
+}
+.navbar-collapse {
+  justify-content: center;
+}
+.navbar-nav {
+  gap: 3rem;
+}
+.Nav .button {
+  border: none !important;
+}
+.navbarContainer {
+  padding: 2rem !important;
+}
+.formcontrol {
+  font-size: 1.5rem !important;
+}
+.searchicon {
+  font-size: 1.5rem !important;
+}
+.offcanvas {
+  width: 30rem !important;
+}
+.dropdown-basic {
+  background-color: #d7e0ea !important;
+}
+.dropdown-menu {
+  min-width: 5rem !important;
+  border: none !important;
+}
+@media only screen and (max-width: 375px) {
+  .lumi-logo {
+    width: 14rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-expand-xl .navbar-nav {
+    align-items: center !important;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .navbar-collapse {
+    align-items: self-start !important;
+  }
+  .dropdown-toggle {
+    padding-left: 0rem !important;
+  }
+  .dropdown-item {
+    padding-left: 0rem !important;
+  }
+}

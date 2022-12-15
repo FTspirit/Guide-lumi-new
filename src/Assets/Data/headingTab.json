@@ -1,0 +1,52 @@
+{
+  "headingTab": [
+    {
+      "id": 1,
+      "vi": "Bộ điều khiển trung tâm",
+      "en": "Home Controller",
+      "path": "HomeController"
+    },
+    {
+      "id": 2,
+      "vi": "Công tắc",
+      "en": "Switch",
+      "path": "switchButton"
+    },
+    {
+      "id": 3,
+      "vi": "Module - Cảm biến",
+      "en": "Module - Sensor",
+      "path": "moduleSensorRemote"
+    },
+    {
+      "id": 4,
+      "vi": "Smart Lighting",
+      "en": "Smart Lighting",
+      "path": "smartLighting"
+    },
+    {
+      "id": 5,
+      "vi": "Khóa - Cổng",
+      "en": "Lock - Gate",
+      "path": "lockGate"
+    },
+    {
+      "id": 6,
+      "vi": "Âm thanh đa vùng",
+      "en": "Multi Zone Audio",
+      "path": "amThanhDaVung"
+    },
+    {
+      "id": 7,
+      "vi": "Work With Lumi",
+      "en": "Work With Lumi",
+      "path": "workWithLumi"
+    },
+    {
+      "id": 8,
+      "vi": "App Lumi Life",
+      "en": "App Lumi Life",
+      "path": "appLumiLife"
+    }
+  ]
+}

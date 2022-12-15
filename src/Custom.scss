@@ -1,0 +1,6 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+$btn-close-width: 5rem;
+$btn-close-height: $btn-close-width;
+.modal {
+  --bs-modal-width: 60vw !important;
+}

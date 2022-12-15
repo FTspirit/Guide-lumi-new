@@ -1,0 +1,56 @@
+{
+  "headingNavbarVi": [
+    {
+      "id": 1,
+      "script": "Hướng dẫn sử dụng",
+      "path": "huongdansudung"
+    },
+    {
+      "id": 2,
+      "script": "Kinh nghiệm thi công",
+      "path": "kinhnghiemthicong"
+    },
+    {
+      "id": 3,
+      "script": "Kiến thức nhà thông minh",
+      "path": "kienthucnhathongminh"
+    },
+    {
+      "id": 4,
+      "script": "Chính sách bảo hành",
+      "path": "chinhsachbaohanh"
+    },
+    {
+      "id": 5,
+      "script": "Câu hỏi thường gặp",
+      "path": "cauhoithuonggap"
+    }
+  ],
+  "headingNavbarEn": [
+    {
+      "id": 1,
+      "script": "User Manual",
+      "path": "usermanual"
+    },
+    {
+      "id": 2,
+      "script": "Construction Experiences",
+      "path": "constructionexperience"
+    },
+    {
+      "id": 3,
+      "script": "Smart Home Knowledge",
+      "path": "smarthomeknowledge"
+    },
+    {
+      "id": 4,
+      "script": "Warranty Policy",
+      "path": "warrantypolicy"
+    },
+    {
+      "id": 5,
+      "script": "FAQ",
+      "path": "Faq"
+    }
+  ]
+}

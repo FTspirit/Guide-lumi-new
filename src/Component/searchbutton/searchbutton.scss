@@ -1,0 +1,26 @@
+.buttonfixed {
+  position: fixed;
+  border-radius: 50% !important;
+  bottom: 24px;
+  right: 24px;
+  width: 52px;
+  height: 52px;
+  background-color: #008c4f !important;
+  border: none !important;
+}
+.buttonhotline {
+  bottom: 100px !important;
+}
+.iconsearch {
+  width: 2rem;
+  height: 2rem;
+  font-weight: 700 !important;
+  color: #fff;
+}
+.modalconfig {
+  width: 60vw !important;
+  transform: translateY(-20%) !important;
+  @media screen and (max-width: 580px) {
+    margin: auto !important;
+  }
+}
