@@ -4,6 +4,7 @@ import Listcard from "../Component/ListCard";
 import { Container } from "react-bootstrap";
 import SearchButton from "../Component/searchbutton";
 import { useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 const StyledImg = styled.img`
   width: 100%;
@@ -14,6 +15,10 @@ const StyledContainer = styled(Container)`
 `;
 function UserManualVi({ lang }) {
   let { id } = useParams();
+
+  useEffect(() => {
+    console.log(`${id}`);
+  }, []);
   return (
     <StyledContainer fluid>
       <div>

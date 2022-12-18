@@ -20,11 +20,13 @@ import MultizoneaudioRoute from "../Component/Route/amthanhdavungRoute";
 import WorkwithlumiRoute from "../Component/Route/workwithlumiRoute";
 import AppLumiLifeRoute from "../Component/Route/applumilifeRoute";
 import ComponentTwo from "../Pages/direct";
+import { useParams } from "react-router-dom";
 
 function AppVI({ lang }) {
+  let { id } = useParams();
   return (
     <>
-      <Navbar lang={`vi`} />
+      <Navbar lang={`vi`} id={id} />
       <Routes>
         <Route path="/" element={<UserManual lang={`vi`} />} />
         <Route path="/huongdansudung" element={<UserManual lang={`vi`} />} />
@@ -43,14 +45,14 @@ function AppVI({ lang }) {
         <Route path="/cauhoithuonggap" element={<Faq lang={`vi`} />} />
         <Route path="/Search" element={<ComponentTwo lang={`vi`} />} />
       </Routes>
-      <HomecontrollerRoute lang={`vi`} src={data.HomeController} />
-      <SwitchbuttonRoute lang={`vi`} src={data.switchButton} />
-      <SensorremoteRoute lang={`vi`} src={data.moduleSensorRemote} />
-      <SmartlightingRoute lang={`vi`} src={data.smartLighting} />
-      <LockgateRoute lang={`vi`} src={data.lockGate} />
-      <MultizoneaudioRoute lang={`vi`} src={data.amThanhDaVung} />
-      <WorkwithlumiRoute lang={`vi`} src={data.workWithLumi} />
-      <AppLumiLifeRoute lang={`vi`} src={data.appLumiLife} />
+      <HomecontrollerRoute lang={`vi`} src={data.HomeController} id={id} />
+      <SwitchbuttonRoute lang={`vi`} src={data.switchButton} id={id} />
+      <SensorremoteRoute lang={`vi`} src={data.moduleSensorRemote} id={id} />
+      <SmartlightingRoute lang={`vi`} src={data.smartLighting} id={id} />
+      <LockgateRoute lang={`vi`} src={data.lockGate} id={id} />
+      <MultizoneaudioRoute lang={`vi`} src={data.amThanhDaVung} id={id} />
+      <WorkwithlumiRoute lang={`vi`} src={data.workWithLumi} id={id} />
+      <AppLumiLifeRoute lang={`vi`} src={data.appLumiLife} id={id} />
       <Footer />
     </>
   );

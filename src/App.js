@@ -23,9 +23,11 @@ function App() {
       </Helmet>
       <Router>
         <Routes>
-          <Route path="/" element={<Navigate to="/vi" replace />} />
-          <Route path="/vi/*" element={<AppVI lang={`vi`} />} />
-          <Route path="/en/*" element={<AppEN lang={`en`} />} />
+          <Route path="/" element={<Navigate to="/vi/1" replace />} />
+          {/* <Route path="/vi/*" element={<AppVI lang={`vi`} />} />
+          <Route path="/en/*" element={<AppEN lang={`en`} />} /> */}
+          <Route path="/vi/:id/*" element={<AppVI lang={`vi`} />} />
+          <Route path="/en/:id/*" element={<AppEN lang={`en`} />} />
         </Routes>
       </Router>
       {/* <Navbar lang={lang} setLang={setLang} />

@@ -7,19 +7,19 @@ import { Container } from "react-bootstrap";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import vn from "../../Assets/svg/flag_vn.svg";
 import en from "../../Assets/svg/flag_en.svg";
-import { NavLink, Link, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import NavData from "../Nav";
-function HeadingNavbar({ lang, setLang }) {
+function HeadingNavbar({ lang, setLang, id }) {
   const navigate = useNavigate();
 
   const navigateToLangVi = () => {
-    // 👇️ navigate to /contacts
-    navigate("/vi");
+    // 👇️ navigate to /vi
+    navigate(`/vi/${id}`);
   };
 
   const navigateToLangEn = () => {
-    // 👇️ navigate to /
-    navigate("/en");
+    // 👇️ navigate to /en
+    navigate(`/en/${id}`);
   };
   return (
     <Navbar
@@ -31,7 +31,7 @@ function HeadingNavbar({ lang, setLang }) {
     >
       <Container fluid>
         <Navbar.Brand>
-          <NavLink to={`/${lang}`}>
+          <NavLink to={`/${lang}/${id}`}>
             <img src={logo} alt="lumi-logo" className="lumi-logo"></img>
           </NavLink>
         </Navbar.Brand>

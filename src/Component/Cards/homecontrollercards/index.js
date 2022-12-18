@@ -4,6 +4,7 @@ import CardBody from "../../Card/cardsvi";
 import CardBodyEn from "../../Card/cardsen";
 import "../Cards.scss";
 
+
 function HomeControllerCards({ lang, path }) {
   return (
     <Row xs={1} sm={2} md={2} lg={4} className="g-5 cardjustifycenter">

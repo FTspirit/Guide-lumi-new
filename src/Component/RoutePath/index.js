@@ -1,7 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import CardIframe from "../CardIframe";
-
+import { useParams } from "react-router-dom";
 function RouteCard({ lang, src }) {
+  let { id } = useParams();
+  console.log(id);
   return (
     <Routes>
       {lang === "vi" &&

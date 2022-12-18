@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 import zigbee from "../../../Assets/images/zigbee.png";
 import blt from "../../../Assets/images/Bluetooth_Mesh.png";
 import "../../Cards/Cards.scss";
+import { useParams } from "react-router-dom";
 
 function CardBodyEn({ item }) {
+  let { id } = useParams();
   return (
     <>
       <Col key={item.title.en}>
@@ -13,7 +15,7 @@ function CardBodyEn({ item }) {
           item.bltMesh.en.length > 0 &&
           item.zigbee.en === "" && (
             <Link
-              to={`/en/usermanual/${item.path.en}/${item.bltMesh.path}`}
+              to={`/en/${id}/usermanual/${item.path.en}/${item.bltMesh.path}`}
               className="cardlink"
             >
               <Card className="cardContainer">
@@ -35,7 +37,7 @@ function CardBodyEn({ item }) {
           item.zigbee.en.length > 0 &&
           item.bltMesh.en === "" && (
             <Link
-              to={`/en/usermanual/${item.path.en}/${item.zigbee.path}`}
+              to={`/en/${id}/usermanual/${item.path.en}/${item.zigbee.path}`}
               className="cardlink"
             >
               <Card className="cardContainer">
@@ -70,13 +72,13 @@ function CardBodyEn({ item }) {
                 />
                 <div className="gap-3 d-flex justify-content-center align-items-center">
                   <Link
-                    to={`/en/usermanual/${item.path.en}/${item.bltMesh.path}`}
+                    to={`/en/${id}/usermanual/${item.path.en}/${item.bltMesh.path}`}
                     className="cardlink"
                   >
                     <Card.Img variant="bottom" src={blt} className="blt" />
                   </Link>
                   <Link
-                    to={`/en/usermanual/${item.path.en}/${item.zigbee.path}`}
+                    to={`/en/${id}/usermanual/${item.path.en}/${item.zigbee.path}`}
                     className="cardlink"
                   >
                     <Card.Img
@@ -91,7 +93,7 @@ function CardBodyEn({ item }) {
           )}
         {item.isOther === true && (
           <Link
-            to={`/en/usermanual/${item.path.en}/${item.normal.path}`}
+            to={`/en/${id}/usermanual/${item.path.en}/${item.normal.path}`}
             className="cardlink"
           >
             <Card className="cardContainer">
