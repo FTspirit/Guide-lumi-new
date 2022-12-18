@@ -12,7 +12,7 @@ function Listcardtest({ lang }) {
     <Container fluid className="listCardContainer">
       <Row>
         <Tabs
-          defaultActiveKey="HomeController"
+          defaultActiveKey="switchButton"
           id="justify-tab-example"
           className="tabs"
           variant="pill"

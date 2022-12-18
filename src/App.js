@@ -1,11 +1,17 @@
 import React from "react";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 import { Helmet } from "react-helmet";
 
 import AppVI from "./AppVI";
 import AppEN from "./AppEN";
+
 function App() {
   // const [lang, setLang] = useState("vi");
   return (
@@ -17,6 +23,7 @@ function App() {
       </Helmet>
       <Router>
         <Routes>
+          <Route path="/" element={<Navigate to="/vi" replace />} />
           <Route path="/vi/*" element={<AppVI lang={`vi`} />} />
           <Route path="/en/*" element={<AppEN lang={`en`} />} />
         </Routes>

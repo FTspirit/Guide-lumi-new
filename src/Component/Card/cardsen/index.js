@@ -13,7 +13,7 @@ function CardBodyEn({ item }) {
           item.bltMesh.en.length > 0 &&
           item.zigbee.en === "" && (
             <Link
-              to={`/usermanual/en/${item.path.en}/${item.bltMesh.path}`}
+              to={`/en/usermanual/${item.path.en}/${item.bltMesh.path}`}
               className="cardlink"
             >
               <Card className="cardContainer">
@@ -35,7 +35,7 @@ function CardBodyEn({ item }) {
           item.zigbee.en.length > 0 &&
           item.bltMesh.en === "" && (
             <Link
-              to={`/usermanual/en/${item.path.en}/${item.zigbee.path}`}
+              to={`/en/usermanual/${item.path.en}/${item.zigbee.path}`}
               className="cardlink"
             >
               <Card className="cardContainer">
@@ -70,13 +70,13 @@ function CardBodyEn({ item }) {
                 />
                 <div className="gap-3 d-flex justify-content-center align-items-center">
                   <Link
-                    to={`/usermanual/en/${item.path.en}/${item.bltMesh.path}`}
+                    to={`/en/usermanual/${item.path.en}/${item.bltMesh.path}`}
                     className="cardlink"
                   >
                     <Card.Img variant="bottom" src={blt} className="blt" />
                   </Link>
                   <Link
-                    to={`/usermanual/${item.path.en}/${item.zigbee.path}`}
+                    to={`/en/usermanual/${item.path.en}/${item.zigbee.path}`}
                     className="cardlink"
                   >
                     <Card.Img
@@ -91,7 +91,7 @@ function CardBodyEn({ item }) {
           )}
         {item.isOther === true && (
           <Link
-            to={`en/usermanual/${item.path.en}/${item.normal.path}`}
+            to={`/en/usermanual/${item.path.en}/${item.normal.path}`}
             className="cardlink"
           >
             <Card className="cardContainer">

@@ -1,5 +1,5 @@
 import data from "../../Assets/Data/headingNavbar.json";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import "./Nav.scss";
 function NavData({ lang }) {
@@ -7,27 +7,25 @@ function NavData({ lang }) {
     <>
       {lang === "vi" &&
         data.headingNavbarVi.map((item) => (
-          <Nav.Link
-            as={Link}
+          <NavLink
             key={item.id}
             to={`${item.path}`}
             className="styledlink"
             eventKey={item.id}
           >
             {item.script}
-          </Nav.Link>
+          </NavLink>
         ))}
       {lang === "en" &&
         data.headingNavbarEn.map((item) => (
-          <Nav.Link
-            as={Link}
+          <NavLink
             key={item.id}
             to={`/en/${item.path}`}
             className="styledlink"
             eventKey={item.id}
           >
             {item.script}
-          </Nav.Link>
+          </NavLink>
         ))}
     </>
   );

@@ -1,0 +1,79 @@
+{
+  "smartlightningConfig": [
+    {
+      "title": {
+        "vi": "Điều khiển Smartlightning",
+        "en": "Control smartlightning"
+      },
+      "path": {
+        "vi": "dieu-khien-smartlightning",
+        "en": "control-smartlightning"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/42993f56-5680-4ff7-9549-7191f454ccc3",
+        "en": "https://docs.lumi.vn/share/15cc19fc-1cff-41c4-9994-57834f253fb6"
+      }
+    },
+    {
+      "title": {
+        "vi": "Nhóm lighting",
+        "en": "Group lighting"
+      },
+      "path": {
+        "vi": "nhom-lighting",
+        "en": "group-lighting"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/c469f0ec-a89a-4b3b-b32b-7891f5936157",
+        "en": "https://docs.lumi.vn/share/26bc8b07-c58f-4fc7-8a63-c265939f4a9c"
+      }
+    },
+    {
+      "title": {
+        "vi": "Cảnh lighting",
+        "en": "scene-lighting"
+      },
+      "path": {
+        "vi": "canh-lighting",
+        "en": "scene-lighting"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/95b6426a-674e-41e8-9673-55409923b691",
+        "en": "https://docs.lumi.vn/share/8c799546-0599-46cc-bfda-838d9442685a"
+      }
+    },
+    {
+      "title": {
+        "vi": "Rule/Cảnh/Lịch lighting",
+        "en": "Stepup lighting rule scene schedule"
+      },
+      "path": {
+        "vi": "rule-canh-lich-lighting",
+        "en": "setup-lighting-rule-scene-schedule"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/30fc06a2-aca6-4795-ac94-88a319037bc5",
+        "en": "https://docs.lumi.vn/share/0629b514-d706-4c1f-90c1-2b5835138553"
+      }
+    },
+    {
+      "title": {
+        "vi": "HCL",
+        "en": "HCL"
+      },
+      "path": {
+        "vi": "cau-hinh-hcl",
+        "en": "setup-hcl"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/9a46aaed-3a73-428b-9ba4-33148c69bfd1",
+        "en": "https://docs.lumi.vn/share/71193cfd-435f-4c0d-a063-ccc24c84d985"
+      }
+    }
+  ]
+}

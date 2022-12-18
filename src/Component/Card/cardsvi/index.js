@@ -76,7 +76,7 @@ function CardBody({ item }) {
                     <Card.Img variant="bottom" src={blt} className="blt" />
                   </Link>
                   <Link
-                    to={`/vi/huongdansudung/vi/${item.path.vi}/${item.zigbee.path}`}
+                    to={`/vi/huongdansudung/${item.path.vi}/${item.zigbee.path}`}
                     className="cardlink"
                   >
                     <Card.Img
@@ -90,12 +90,8 @@ function CardBody({ item }) {
             </Card>
           )}
         {item.isOther === true && (
-          // <Link
-          //   to={`/huongdansudung/${item.path.vi}/${item.normal.path}/vi`}
-          //   className="cardlink"
-          // >s
           <Link
-            to={`huongdansudung/${item.path.vi}/${item.normal.path}`}
+            to={`/vi/huongdansudung/${item.path.vi}/${item.normal.path}`}
             className="cardlink"
           >
             <Card className="cardContainer">

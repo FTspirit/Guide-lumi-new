@@ -7,14 +7,19 @@ import { Container } from "react-bootstrap";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import vn from "../../Assets/svg/flag_vn.svg";
 import en from "../../Assets/svg/flag_en.svg";
-import { Link } from "react-router-dom";
+import { NavLink, Link, useNavigate } from "react-router-dom";
 import NavData from "../Nav";
 function HeadingNavbar({ lang, setLang }) {
-  const handleLangVi = () => {
-    setLang("vi");
+  const navigate = useNavigate();
+
+  const navigateToLangVi = () => {
+    // 👇️ navigate to /contacts
+    navigate("/vi");
   };
-  const handleLangEn = () => {
-    setLang("en");
+
+  const navigateToLangEn = () => {
+    // 👇️ navigate to /
+    navigate("/en");
   };
   return (
     <Navbar
@@ -26,9 +31,9 @@ function HeadingNavbar({ lang, setLang }) {
     >
       <Container fluid>
         <Navbar.Brand>
-          <Link to={`/${lang}`}>
+          <NavLink to={`/${lang}`}>
             <img src={logo} alt="lumi-logo" className="lumi-logo"></img>
-          </Link>
+          </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-xl`} />
         <Navbar.Offcanvas
@@ -51,32 +56,32 @@ function HeadingNavbar({ lang, setLang }) {
                       src={vn}
                       alt="VietNam Flag"
                       className="flag"
-                      onClick={handleLangVi}
+                      onClick={navigateToLangVi}
                     ></img>
                   ) : (
                     <img
                       src={en}
                       alt="England Flag"
                       className="flag"
-                      onClick={handleLangEn}
+                      onClick={navigateToLangEn}
                     ></img>
                   )}
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">
+                  <Dropdown.Item>
                     {lang === "vi" ? (
                       <img
                         src={en}
                         alt="England Flag"
                         className="flag"
-                        onClick={handleLangEn}
+                        onClick={navigateToLangEn}
                       ></img>
                     ) : (
                       <img
                         src={vn}
                         alt="VietNam Flag"
                         className="flag"
-                        onClick={handleLangVi}
+                        onClick={navigateToLangVi}
                       ></img>
                     )}
                   </Dropdown.Item>

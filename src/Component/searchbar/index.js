@@ -40,8 +40,6 @@ function makeAndHandleRequest(query, page = 1) {
         } else different.push(el);
       });
       options = final.concat(different);
-      console.log(final.concat(different));
-      console.log("final", final);
       return { options };
     });
 }
@@ -71,7 +69,7 @@ async function setUpChangeScreen(query) {
   return { options, url };
 }
 
-function SearchBar() {
+function SearchBar({ lang }) {
   const [isLoading, setIsLoading] = useState(false);
   const [options, setOptions] = useState([]);
   const [query, setQuery] = useState("");
@@ -81,7 +79,12 @@ function SearchBar() {
   };
   const changeScreen = (q) => {
     setUpChangeScreen(q).then((resp) => {
-      navigate("/Search", { state: `${resp.url}` });
+      console.log(resp.url);
+      if (lang === "vi") {
+        navigate("/vi/Search", { state: `${resp.url}` });
+      } else {
+        navigate("/en/Search", { state: `${resp.url}` });
+      }
     });
   };
   const handletext = (event) => {

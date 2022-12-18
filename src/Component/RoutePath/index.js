@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import CardIframe from "../CardIframe";
+
 function RouteCard({ lang, src }) {
-  console.log(lang, src);
   return (
     <Routes>
       {lang === "vi" &&
@@ -11,11 +11,8 @@ function RouteCard({ lang, src }) {
             item.bltMesh.vi.length > 0 &&
             item.zigbee.vi === "" && (
               <>
-                {console.log(
-                  `/vi/huongdansudung/${item.path.vi}/${item.bltMesh.path}`
-                )}
                 <Route
-                  path={`/vi/huongdansudung/${item.path.vi}/${item.bltMesh.path}`}
+                  path={`huongdansudung/${item.path.vi}/${item.bltMesh.path}`}
                   element={<CardIframe src={item.bltMesh.vi} />}
                   key={item.title.vi}
                 />
@@ -31,7 +28,7 @@ function RouteCard({ lang, src }) {
             item.zigbee.en === "" && (
               <>
                 <Route
-                  path={`/usermanual/${item.path.en}/${item.bltMesh.path}`}
+                  path={`usermanual/${item.path.en}/${item.bltMesh.path}`}
                   element={<CardIframe src={item.bltMesh.en} />}
                   key={item.title.en}
                 />
@@ -47,7 +44,7 @@ function RouteCard({ lang, src }) {
             item.bltMesh.vi === "" && (
               <>
                 <Route
-                  path={`/vi/huongdansudung/${item.path.vi}/${item.zigbee.path}`}
+                  path={`huongdansudung/${item.path.vi}/${item.zigbee.path}`}
                   element={<CardIframe src={item.zigbee.vi} />}
                   key={item.title.vi}
                 />
@@ -63,7 +60,7 @@ function RouteCard({ lang, src }) {
             item.bltMesh.en === "" && (
               <>
                 <Route
-                  path={`/usermanual/${item.path.en}/${item.zigbee.path}`}
+                  path={`usermanual/${item.path.en}/${item.zigbee.path}`}
                   element={<CardIframe src={item.zigbee.en} />}
                   key={item.title.en}
                 />
@@ -79,12 +76,12 @@ function RouteCard({ lang, src }) {
             item.bltMesh.vi.length > 0 && (
               <>
                 <Route
-                  path={`/vi/huongdansudung/${item.path.vi}/${item.bltMesh.path}`}
+                  path={`huongdansudung/${item.path.vi}/${item.bltMesh.path}`}
                   element={<CardIframe src={item.bltMesh.vi} />}
                   key={item.title.vi}
                 />
                 <Route
-                  path={`/vi/huongdansudung/${item.path.vi}/${item.zigbee.path}`}
+                  path={`huongdansudung/${item.path.vi}/${item.zigbee.path}`}
                   element={<CardIframe src={item.zigbee.vi} />}
                   key={item.title.vi}
                 />
@@ -99,12 +96,12 @@ function RouteCard({ lang, src }) {
             item.bltMesh.en.length > 0 && (
               <>
                 <Route
-                  path={`/usermanual/${item.path.en}/${item.bltMesh.path}`}
+                  path={`usermanual/${item.path.en}/${item.bltMesh.path}`}
                   element={<CardIframe src={item.bltMesh.en} />}
                   key={item.title.en}
                 />
                 <Route
-                  path={`/usermanual/${item.path.en}/${item.zigbee.path}`}
+                  path={`usermanual/${item.path.en}/${item.zigbee.path}`}
                   element={<CardIframe src={item.zigbee.en} />}
                   key={item.title.en}
                 />
@@ -131,7 +128,7 @@ function RouteCard({ lang, src }) {
             item.isOther === true && (
               <>
                 <Route
-                  path={`en/usermanual/${item.path.en}/${item.normal.path}`}
+                  path={`usermanual/${item.path.en}/${item.normal.path}`}
                   element={<CardIframe src={item.normal.en} />}
                   key={item.title.en}
                 />

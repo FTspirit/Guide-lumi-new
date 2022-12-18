@@ -1,0 +1,109 @@
+{
+  "Config": [
+    {
+      "title": {
+        "vi": "Tùy chỉnh tài khoản người dùng",
+        "en": "User Account"
+      },
+      "path": {
+        "vi": "tai-khoan-nguoi-dung",
+        "en": "user-account"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/75537bd7-198a-431e-8197-94063501f4ae",
+        "en": "https://docs.lumi.vn/share/398ac207-3e9c-4b31-93a6-82abad2fada0"
+      }
+    },
+    {
+      "title": {
+        "vi": "Bảo mật & An ninh",
+        "en": "Security-Protected"
+      },
+      "path": {
+        "vi": "nhom-lighting",
+        "en": "scene-lighting"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/0e62aef0-86e1-48a7-acca-f5ee1978988f",
+        "en": "https://docs.lumi.vn/share/6263e1ce-9cbf-42d6-83ac-e843d04a7fea"
+      }
+    },
+    {
+      "title": {
+        "vi": "Chia sẻ & phân quyền",
+        "en": "Share Account"
+      },
+      "path": {
+        "vi": "phan-quyen",
+        "en": "share-account"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/1fed1660-f2b9-423b-a732-0805753345b4",
+        "en": "https://docs.lumi.vn/share/cf4554d0-8ee5-4dc2-b655-6584b7072325"
+      }
+    },
+    {
+      "title": {
+        "vi": "Tùy chỉnh tầng phòng",
+        "en": "Config Floor Room"
+      },
+      "path": {
+        "vi": "tuy-chinh-tang-phong",
+        "en": "config-floor-room"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/3092ffdc-e2fb-4d2d-b7ab-3f47362b359a",
+        "en": "https://docs.lumi.vn/share/e76e10b5-5ac7-4cda-ad3f-5f77b1337aab"
+      }
+    },
+    {
+      "title": {
+        "vi": "Tùy chỉnh hiển thị",
+        "en": "Config display on app"
+      },
+      "path": {
+        "vi": "tuy-chinh-hien-thi",
+        "en": "setup-hcl"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/9b96df32-0230-45de-bd8f-2d0dac2c7cd5",
+        "en": "https://docs.lumi.vn/share/94d8ef79-d31b-440c-91f4-d6a7b0e591d4"
+      }
+    },
+    {
+      "title": {
+        "vi": "Thao tác nhanh trên App Lumi Life",
+        "en": "Quick Action"
+      },
+      "path": {
+        "vi": "thao-tac-nhanh",
+        "en": "quick-action"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/6a1a73d9-f46b-4d14-8450-98196c5bf4d1",
+        "en": "https://docs.lumi.vn/share/27511e0f-470e-462c-a186-03a02ab90fed"
+      }
+    },
+    {
+      "title": {
+        "vi": "Phản hồi",
+        "en": "Feedback"
+      },
+      "path": {
+        "vi": "phan-hoi",
+        "en": "feedback"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/70cd2e3b-57b9-42ad-b3eb-7aa616073e5d",
+        "en": "https://docs.lumi.vn/share/c2d765c4-7443-45a3-ad13-9795120116f8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "SystemConfig": [
+    {
+      "title": {
+        "vi": "Kích hoạt HC",
+        "en": "Active HC"
+      },
+      "path": {
+        "vi": "kich-hoat-hc",
+        "en": "active-hc"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/f1725b80-40b4-4b7e-a595-0e7ffb2bec41",
+        "en": "https://docs.lumi.vn/share/3dffebe5-6893-4aca-bc5d-955aef5d1072"
+      }
+    },
+    {
+      "title": {
+        "vi": "Tạo nhà",
+        "en": "Create Home"
+      },
+      "path": {
+        "vi": "tao-nha",
+        "en": "create-home"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/567684ba-592b-499f-b274-f5ad2fef90c3",
+        "en": "https://docs.lumi.vn/share/3cfbca53-c3ed-42f0-8570-b2b8e2f4a03a"
+      }
+    },
+    {
+      "title": {
+        "vi": "Cài đặt HC",
+        "en": "stepup-hc"
+      },
+      "path": {
+        "vi": "kich-hoat-hc",
+        "en": "active-hc"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/ac51a8de-9252-48b5-a71e-fcbb7078b405",
+        "en": "https://docs.lumi.vn/share/4c9e4f6b-6a77-4923-bdf0-9ece816af744"
+      }
+    },
+    {
+      "title": {
+        "vi": "Tạo tầng phòng",
+        "en": "Create-floor-room"
+      },
+      "path": {
+        "vi": "tao-tang-phong",
+        "en": "crear-floor-room"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/cea6ee89-2ccb-4ad1-9493-538f442676c1",
+        "en": "https://docs.lumi.vn/share/584bdcbc-f89d-4824-bb26-d61c01bcb376"
+      }
+    },
+    {
+      "title": {
+        "vi": "Cài đặt thiết bị",
+        "en": "Setup devices"
+      },
+      "path": {
+        "vi": "cai-dat-thiet-bi",
+        "en": "stepup-devices"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/29959e33-7bdf-4ddf-b388-c6810a9187b8",
+        "en": "https://docs.lumi.vn/share/1073519f-73ff-43d2-bfe2-7fa33e2ba18a"
+      }
+    },
+    {
+      "title": {
+        "vi": "Cài đặt rule",
+        "en": "Stepup rule"
+      },
+      "path": {
+        "vi": "cai-dat-rule",
+        "en": "stepup-rule"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/9ad1e11f-3a57-40a2-ba87-c47781b1547b",
+        "en": "https://docs.lumi.vn/share/bcbceecd-3666-4d41-bd1b-4cca073eb634"
+      }
+    },
+    {
+      "title": {
+        "vi": "Cài đặt cảnh",
+        "en": "Stepup scene"
+      },
+      "path": {
+        "vi": "cai-dat-canh",
+        "en": "stepup-scene"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/5ee78dbf-aa4e-4773-a9bb-7360e5f52cf4",
+        "en": "https://docs.lumi.vn/share/e8f6a7bf-80c8-4c6e-bff6-f2d468047d0e"
+      }
+    },
+    {
+      "title": {
+        "vi": "Tạo tầng phòng",
+        "en": "Create-floor-room"
+      },
+      "path": {
+        "vi": "tao-tang-phong",
+        "en": "crear-floor-room"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/f1725b80-40b4-4b7e-a595-0e7ffb2bec41",
+        "en": "https://docs.lumi.vn/share/3dffebe5-6893-4aca-bc5d-955aef5d1072"
+      }
+    },
+    {
+      "title": {
+        "vi": "Cài đặt lịch hẹn giờ thiết bị",
+        "en": "Stepup schedule"
+      },
+      "path": {
+        "vi": "cai-dat-lich-hen-gio",
+        "en": "stepup-schedule"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/15a1f76f-4120-4ad7-92af-e426086c815d",
+        "en": "https://docs.lumi.vn/share/8a8d82a3-5336-43b1-a683-d8f4d73fc0cb"
+      }
+    },
+    {
+      "title": {
+        "vi": "Cài đặt nhóm đảo chiều",
+        "en": "Stepup group"
+      },
+      "path": {
+        "vi": "cai-dat-nhom-dao-chieu",
+        "en": "stepup-group"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/101111f3-a3cc-4bfb-978f-37fd94461d25",
+        "en": "https://docs.lumi.vn/share/e44faa37-8a69-44f8-a7d8-a976658981dc"
+      }
+    },
+    {
+      "title": {
+        "vi": "Xem camrea trên App Lumi Life",
+        "en": "View camera on Lumi Life"
+      },
+      "path": {
+        "vi": "xem-camera-tren-lumi-life",
+        "en": "view-camera-lumi-life"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/e35bff6c-d011-47f7-813e-97f41dd82472",
+        "en": "https://docs.lumi.vn/share/8c265582-ad77-426d-934c-18b27244cec6"
+      }
+    },
+    {
+      "title": {
+        "vi": "Camera thông minh HIK vision",
+        "en": "View camera hik vision"
+      },
+      "path": {
+        "vi": "xem-camera-hik-vision",
+        "en": "view-camera-hik-vision"
+      },
+      "linkSystemConfig": true,
+      "link": {
+        "vi": "https://docs.lumi.vn/share/3fd3f5c5-8b84-4a1c-889b-0bd9a5f66e05",
+        "en": "https://docs.lumi.vn/share/f37f7673-79b4-42d1-a0ea-2b292b1a65a8"
+      }
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import { FaSearch } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import SearchBar from "../../Component/searchbar";
 import "./searchbutton.scss";
-function SearchButton() {
+function SearchButton({ lang }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -30,7 +30,7 @@ function SearchButton() {
         dialogClassName="modalconfig"
         // size="lg"
       >
-        <SearchBar />
+        <SearchBar lang={lang} />
       </Modal>
     </>
   );

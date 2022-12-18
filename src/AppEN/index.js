@@ -7,6 +7,7 @@ import UserManual from "../Pages/userManual";
 import SmarthomeKnowledge from "../Pages/smarthomeKnowledge";
 import ConstructionExperience from "../Pages/constructionExperience";
 import Faq from "../Pages/faq";
+import ComponentTwo from "../Pages/direct";
 
 import Footer from "../Component/Footer";
 import data from "../Assets/Data/data.json";
@@ -19,7 +20,6 @@ import LockgateRoute from "../Component/Route/lockgateRoute";
 import MultizoneaudioRoute from "../Component/Route/amthanhdavungRoute";
 import WorkwithlumiRoute from "../Component/Route/workwithlumiRoute";
 import AppLumiLifeRoute from "../Component/Route/applumilifeRoute";
-import ComponentTwo from "../Pages/direct";
 
 function AppEN({ lang }) {
   return (
@@ -28,20 +28,20 @@ function AppEN({ lang }) {
 
       <Routes>
         <Route path="/" element={<UserManual lang={`en`} />} />
-        <Route path="/huongdansudung" element={<UserManual lang={`en`} />} />
+        <Route path="/usermanual" element={<UserManual lang={`en`} />} />
         <Route
-          path="/chinhsachbaohanh"
+          path="/warrantypolicy"
           element={<WarrantyPolicy lang={`en`} />}
         />
         <Route
-          path="/kinhnghiemthicong"
+          path="/constructionexperience"
           element={<ConstructionExperience lang={`en`} />}
         />
         <Route
-          path="/kienthucnhathongminh"
+          path="/smarthomeknowledge"
           element={<SmarthomeKnowledge lang={`en`} />}
         />
-        <Route path="/cauhoithuonggap" element={<Faq lang={`en`} />} />
+        <Route path="/Faq" element={<Faq lang={`en`} />} />
         <Route path="/Search" element={<ComponentTwo lang={`en`} />} />
       </Routes>
       <HomecontrollerRoute lang={`en`} src={data.HomeController} />

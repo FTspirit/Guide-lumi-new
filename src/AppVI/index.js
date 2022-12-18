@@ -22,7 +22,6 @@ import AppLumiLifeRoute from "../Component/Route/applumilifeRoute";
 import ComponentTwo from "../Pages/direct";
 
 function AppVI({ lang }) {
-  console.log(data);
   return (
     <>
       <Navbar lang={`vi`} />
