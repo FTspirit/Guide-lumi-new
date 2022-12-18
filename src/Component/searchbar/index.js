@@ -4,6 +4,7 @@ import "react-bootstrap-typeahead/css/Typeahead.css";
 import { useNavigate } from "react-router-dom";
 import "../searchbar/Searchbar.scss";
 import { ClearButton } from "react-bootstrap-typeahead";
+import { useParams } from "react-router-dom";
 const CACHE = {};
 const PER_PAGE = 50;
 
@@ -70,6 +71,8 @@ async function setUpChangeScreen(query) {
 }
 
 function SearchBar({ lang }) {
+  let { id } = useParams();
+  console.log(id);
   const [isLoading, setIsLoading] = useState(false);
   const [options, setOptions] = useState([]);
   const [query, setQuery] = useState("");
@@ -81,9 +84,9 @@ function SearchBar({ lang }) {
     setUpChangeScreen(q).then((resp) => {
       console.log(resp.url);
       if (lang === "vi") {
-        navigate("/vi/Search", { state: `${resp.url}` });
+        navigate(`/vi/${id}/Search`, { state: `${resp.url}` });
       } else {
-        navigate("/en/Search", { state: `${resp.url}` });
+        navigate(`/en/${id}/Search`, { state: `${resp.url}` });
       }
     });
   };

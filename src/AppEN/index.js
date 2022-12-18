@@ -20,29 +20,27 @@ import LockgateRoute from "../Component/Route/lockgateRoute";
 import MultizoneaudioRoute from "../Component/Route/amthanhdavungRoute";
 import WorkwithlumiRoute from "../Component/Route/workwithlumiRoute";
 import AppLumiLifeRoute from "../Component/Route/applumilifeRoute";
+import { useParams } from "react-router-dom";
 
 function AppEN({ lang }) {
+  let { id } = useParams();
   return (
     <>
-      <Navbar lang={`en`} />
-
+      <Navbar lang={`en`} id={id} />
       <Routes>
         <Route path="/" element={<UserManual lang={`en`} />} />
-        <Route path="/usermanual" element={<UserManual lang={`en`} />} />
+        <Route path="usermanual" element={<UserManual lang={`en`} />} />
+        <Route path="warrantypolicy" element={<WarrantyPolicy lang={`en`} />} />
         <Route
-          path="/warrantypolicy"
-          element={<WarrantyPolicy lang={`en`} />}
-        />
-        <Route
-          path="/constructionexperience"
+          path="constructionexperience"
           element={<ConstructionExperience lang={`en`} />}
         />
         <Route
-          path="/smarthomeknowledge"
+          path="smarthomeknowledge"
           element={<SmarthomeKnowledge lang={`en`} />}
         />
-        <Route path="/Faq" element={<Faq lang={`en`} />} />
-        <Route path="/Search" element={<ComponentTwo lang={`en`} />} />
+        <Route path="Faq" element={<Faq lang={`en`} />} />
+        <Route path="Search" element={<ComponentTwo lang={`en`} />} />
       </Routes>
       <HomecontrollerRoute lang={`en`} src={data.HomeController} />
       <SwitchbuttonRoute lang={`en`} src={data.switchButton} />

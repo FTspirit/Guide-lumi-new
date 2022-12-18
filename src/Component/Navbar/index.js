@@ -14,12 +14,12 @@ function HeadingNavbar({ lang, setLang, id }) {
 
   const navigateToLangVi = () => {
     // 👇️ navigate to /vi
-    navigate(`/vi/${id}`);
+    navigate(`/vi/${id}/huongdansudung`);
   };
 
   const navigateToLangEn = () => {
     // 👇️ navigate to /en
-    navigate(`/en/${id}`);
+    navigate(`/en/${id}/usermanual`);
   };
   return (
     <Navbar
@@ -31,9 +31,16 @@ function HeadingNavbar({ lang, setLang, id }) {
     >
       <Container fluid>
         <Navbar.Brand>
-          <NavLink to={`/${lang}/${id}`}>
-            <img src={logo} alt="lumi-logo" className="lumi-logo"></img>
-          </NavLink>
+          {lang === "vi" && (
+            <NavLink to={`/vi/${id}/huongdansudung`}>
+              <img src={logo} alt="lumi-logo" className="lumi-logo"></img>
+            </NavLink>
+          )}
+          {lang === "en" && (
+            <NavLink to={`/en/${id}/usermanual`}>
+              <img src={logo} alt="lumi-logo" className="lumi-logo"></img>
+            </NavLink>
+          )}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-xl`} />
         <Navbar.Offcanvas

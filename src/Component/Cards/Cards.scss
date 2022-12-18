@@ -1,8 +1,16 @@
 .ziggbee {
   width: 10rem !important;
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+  }
 }
 .blt {
   width: 10rem !important;
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+  }
 }
 .cardheading {
   width: 20rem !important;
@@ -10,6 +18,10 @@
   @media only screen and (max-width: 576em) {
     width: 20rem !important;
     height: 20rem !important;
+  }
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
   }
 }
 .cardtext {
@@ -32,6 +44,7 @@
   border: none !important;
   border-radius: 1rem !important;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .cardjustifycenter {
   justify-content: center;

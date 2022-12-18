@@ -20,7 +20,7 @@ function NavData({ lang }) {
         data.headingNavbarEn.map((item) => (
           <NavLink
             key={item.id}
-            to={`/en/${item.path}`}
+            to={`${item.path}`}
             className="styledlink"
             eventKey={item.id}
           >

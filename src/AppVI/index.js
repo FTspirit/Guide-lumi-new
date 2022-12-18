@@ -20,7 +20,7 @@ import MultizoneaudioRoute from "../Component/Route/amthanhdavungRoute";
 import WorkwithlumiRoute from "../Component/Route/workwithlumiRoute";
 import AppLumiLifeRoute from "../Component/Route/applumilifeRoute";
 import ComponentTwo from "../Pages/direct";
-import { useParams } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 
 function AppVI({ lang }) {
   let { id } = useParams();
@@ -28,22 +28,25 @@ function AppVI({ lang }) {
     <>
       <Navbar lang={`vi`} id={id} />
       <Routes>
-        <Route path="/" element={<UserManual lang={`vi`} />} />
-        <Route path="/huongdansudung" element={<UserManual lang={`vi`} />} />
         <Route
-          path="/chinhsachbaohanh"
+          path="/"
+          element={<Navigate to="/vi/1/huongdansudung" replace />}
+        />
+        <Route path="huongdansudung" element={<UserManual lang={`vi`} />} />
+        <Route
+          path="chinhsachbaohanh"
           element={<WarrantyPolicy lang={`vi`} />}
         />
         <Route
-          path="/kinhnghiemthicong"
+          path="kinhnghiemthicong"
           element={<ConstructionExperience lang={`vi`} />}
         />
         <Route
-          path="/kienthucnhathongminh"
+          path="kienthucnhathongminh"
           element={<SmarthomeKnowledge lang={`vi`} />}
         />
-        <Route path="/cauhoithuonggap" element={<Faq lang={`vi`} />} />
-        <Route path="/Search" element={<ComponentTwo lang={`vi`} />} />
+        <Route path="cauhoithuonggap" element={<Faq lang={`vi`} />} />
+        <Route path="Search" element={<ComponentTwo lang={`vi`} />} />
       </Routes>
       <HomecontrollerRoute lang={`vi`} src={data.HomeController} id={id} />
       <SwitchbuttonRoute lang={`vi`} src={data.switchButton} id={id} />

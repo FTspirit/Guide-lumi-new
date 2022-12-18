@@ -1,11 +1,6 @@
 import React from "react";
 
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { Helmet } from "react-helmet";
 
@@ -23,7 +18,6 @@ function App() {
       </Helmet>
       <Router>
         <Routes>
-          <Route path="/" element={<Navigate to="/vi/1" replace />} />
           {/* <Route path="/vi/*" element={<AppVI lang={`vi`} />} />
           <Route path="/en/*" element={<AppEN lang={`en`} />} /> */}
           <Route path="/vi/:id/*" element={<AppVI lang={`vi`} />} />
